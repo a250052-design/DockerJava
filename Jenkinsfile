@@ -16,7 +16,7 @@ pipeline {
 
         stage('Pull Base Image') {
             steps {
-                bat 'docker pull openjdk:17'
+                bat 'docker pull eclipse-temurin:17'
             }
         }
 
